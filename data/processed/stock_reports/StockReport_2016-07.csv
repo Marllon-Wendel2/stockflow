@@ -1,0 +1,33 @@
+reference_month,category,product_name,units_sold,units_in_stock,unit_price
+2016-07,Beverages,Chang,105,17,19.0
+2016-07,Beverages,Chartreuse verte,48,69,18.0
+2016-07,Beverages,Guaraná Fantástica,43,20,4.5
+2016-07,Beverages,Lakkalikööri,15,57,18.0
+2016-07,Beverages,Outback Lager,41,15,15.0
+2016-07,Beverages,Steeleye Stout,20,20,18.0
+2016-07,Condiments,Chef Anton's Gumbo Mix,77,0,21.35
+2016-07,Condiments,Louisiana Fiery Hot..,35,76,21.05
+2016-07,Condiments,Original Frankfurter..,27,32,13.0
+2016-07,Confections,Maxilaku,40,10,20.0
+2016-07,Confections,Pavlova,95,29,17.45
+2016-07,Confections,Schoggi Schokolade,25,49,43.9
+2016-07,Confections,Sir Rodney's Marmalade,40,40,81.0
+2016-07,Confections,Sir Rodney's Scones,30,3,10.0
+2016-07,Confections,Tarte au sucre,15,17,49.3
+2016-07,Dairy,Products Camembert Pierrot,40,19,34.0
+2016-07,Dairy,Products Geitost,85,112,2.5
+2016-07,Dairy,Products Gorgonzola Telino,20,0,12.5
+2016-07,Dairy,Products Mascarpone Fabioli,6,9,32.0
+2016-07,Dairy,Products Mozzarella di Giovanni,29,14,34.8
+2016-07,Dairy,Products Queso Cabrales,12,22,21.0
+2016-07,Dairy,Products Queso Manchego La..,12,86,38.0
+2016-07,Dairy,Products Raclette Courdavault,100,79,55.0
+2016-07,Produce,Longlife Tofu,57,4,10.0
+2016-07,Produce,Manjimup Dried Apples,75,20,53.0
+2016-07,Produce,Tofu,9,35,23.25
+2016-07,Produce,Uncle Bob's Organic..,15,15,30.0
+2016-07,Seafood,Boston Crab Meat,50,123,18.4
+2016-07,Seafood,Gravad lax,1,11,26.0
+2016-07,Seafood,Inlagd Sill,25,112,19.0
+2016-07,Seafood,Jack's New England..,51,85,9.65
+2016-07,Seafood,Nord-Ost Matjeshering,60,10,25.89

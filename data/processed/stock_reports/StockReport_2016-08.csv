@@ -1,0 +1,38 @@
+reference_month,category,product_name,units_sold,units_in_stock,unit_price
+2016-08,Beverages,Chai,63,39,18.0
+2016-08,Beverages,Guaraná Fantástica,40,20,4.5
+2016-08,Beverages,Ipoh Coffee,40,17,46.0
+2016-08,Beverages,Lakkalikööri,33,57,18.0
+2016-08,Beverages,Laughing Lumberjack..,5,52,14.0
+2016-08,Beverages,Rhönbräu Klosterbier,42,125,7.75
+2016-08,Beverages,Sasquatch Ale,20,111,14.0
+2016-08,Beverages,Steeleye Stout,104,20,18.0
+2016-08,Condiments,Aniseed Syrup,30,13,10.0
+2016-08,Condiments,Chef Anton's Gumbo Mix,20,0,21.35
+2016-08,Condiments,Genen Shouyu,20,39,15.5
+2016-08,Condiments,Gula Malacca,61,27,19.45
+2016-08,Condiments,Original Frankfurter..,10,32,13.0
+2016-08,Condiments,Vegie-spread,13,24,43.9
+2016-08,Confections,Maxilaku,15,10,20.0
+2016-08,Confections,Pavlova,40,29,17.45
+2016-08,Confections,Schoggi Schokolade,15,49,43.9
+2016-08,Confections,Scottish Longbreads,3,6,12.5
+2016-08,Confections,Sir Rodney's Marmalade,26,40,81.0
+2016-08,Confections,Tarte au sucre,52,17,49.3
+2016-08,Confections,Teatime Chocolate..,19,25,9.2
+2016-08,Dairy,Products Camembert Pierrot,76,19,34.0
+2016-08,Dairy,Products Flotemysost,20,26,21.5
+2016-08,Dairy,Products Geitost,44,112,2.5
+2016-08,Dairy,Products Gorgonzola Telino,55,0,12.5
+2016-08,Dairy,Products Mozzarella di Giovanni,34,14,34.8
+2016-08,Dairy,Products Raclette Courdavault,21,79,55.0
+2016-08,Produce,Manjimup Dried Apples,2,20,53.0
+2016-08,Produce,Rössle Sauerkraut,20,26,45.6
+2016-08,Seafood,Boston Crab Meat,100,123,18.4
+2016-08,Seafood,Carnarvon Tigers,12,42,62.5
+2016-08,Seafood,Ikura,39,31,31.0
+2016-08,Seafood,Inlagd Sill,30,112,19.0
+2016-08,Seafood,Konbu,30,24,6.0
+2016-08,Seafood,Nord-Ost Matjeshering,6,10,25.89
+2016-08,Seafood,Röd Kaviar,25,101,15.0
+2016-08,Seafood,Spegesild,15,95,12.0
