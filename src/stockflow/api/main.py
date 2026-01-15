@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from stockflow.api.views.routes.stock_routes import router as stock_router
-
+from stockflow.config.database import engine, Base
+from stockflow.api.controllers.stock_controller import router as stock_router
 
 app = FastAPI(
     title="StockFlow API",
@@ -8,6 +8,10 @@ app = FastAPI(
 )
 
 app.include_router(stock_router)
+
+@app.on_event("startup")
+def startup():
+    Base.metadata.create_all(bind=engine)
 
 @app.get("/health")
 def health():

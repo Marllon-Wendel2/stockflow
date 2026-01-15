@@ -2,6 +2,7 @@ from pathlib import Path
 import pdfplumber
 import pandas as pd
 import re
+import requests
 
 PDF_DIR = Path("/home/marllon/stockflow/data/raw/pdfs")
 OUT_DIR = Path("/home/marllon/stockflow/data/processed/stock_reports")
@@ -78,5 +79,14 @@ for pdf_file in sorted(PDF_DIR.glob("*.pdf")):
 
     df.columns = df.columns.str.strip().str.lower()
 
-    output_csv = OUT_DIR / pdf_file.with_suffix(".csv").name
-    df.to_csv(output_csv, index=False)
+    API_URL = "http://localhost:8000/stocks/bulk"
+
+    payload = df.to_dict(orient="records")
+
+    response = requests.post(API_URL, json=payload, timeout=30)
+
+    if response.status_code == 200:
+        print(f"✅ Enviado com sucesso: {pdf_file.name}")
+    else:
+        print(f"❌ Erro ao enviar {pdf_file.name}: {response.status_code}")
+        print(response.text)
