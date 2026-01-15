@@ -1,0 +1,9 @@
+.venv
+.env
+data
+__pycache__
+*.pyc
+*.log
+.git
+.gitignore
+kaggle_auth.json
