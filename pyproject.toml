@@ -16,7 +16,9 @@ dependencies = [
     "pandas",
     "pdfplumber",
     "playwright",
-    "requests"
+    "requests",
+    "apscheduler",
+    "pydantic-settings"
 ]
 
 [tool.setuptools]
